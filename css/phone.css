@@ -1,0 +1,82 @@
+#myHeader{
+    background-color: #4d4d4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+#myHeader .headerField ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#myHeader #logo img{
+    width: 30px;
+    height: 30px;
+    margin: 5px auto;
+}
+
+#home{
+        display: flex;
+        flex-direction: column;
+        height: 212px;
+        width: auto;
+        /* border: 2px solid blue; */
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 4px;
+        position: relative;
+        top: 0px;
+        
+        
+}
+
+#home .btn{
+    width: 100px;
+    padding: 3px;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    margin-top: 5px ;
+}
+
+#heading{
+    font-size: 25px;
+}
+
+
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* client-section */
+#client-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#client-section .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    height: 80px;
+    width: auto;
+    margin: 7px;
+}
+
+footer{
+    font-size: 12px;
+}

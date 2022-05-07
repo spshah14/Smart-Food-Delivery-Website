@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Baloo Da 2', cursive;
+    background-color: #fff5d8;
+}
+
+#myHeader{
+    background-color: #4d4d4d;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    z-index: 1;
+}
+
+#myHeader #logo img{
+    width: 30px;
+    height: 30px;
+    margin: 10px 20px;
+}
+
+#myHeader .headerField{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#myHeader .headerField ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myHeader .headerField ul li{
+    list-style: none;
+}
+#myHeader .headerField ul a{
+    text-decoration: none;
+    color: white;
+    margin: auto 20px;
+}
+
+/* Home section */
+
+#home{
+        display: flex;
+        flex-direction: column;
+        height: 110px;
+        width: auto;
+        /* border: 2px solid blue; */
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding: 60px;
+        position: relative;
+        color: white;
+        
+}
+
+#home .btn{
+    width: 100px;
+    padding: 3px;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../img/img1.jpg') no-repeat center center/cover;
+    height: 232px;
+    top:0px;
+    left:0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.75;
+}
+
+#heading{
+    font-size: 35px;
+}
+
+/* Services section */
+#service-section::before{
+    content: "";
+    background: url(/img/img1.jpg);
+    position: absolute;
+}
+
+.center{
+    text-align: center;
+}
+
+#service-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px 30px;
+}
+
+.cards
+{
+    display: flex;
+}
+.card{
+    border: 2px solid #623838;
+    height: auto;
+    width: 300px;
+    padding: 15px 15px;
+    margin: 15px 15px;
+    border-radius: 20px;
+    text-justify:auto;
+    background-color: #b7b5b5;
+}
+
+
+#card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#card1 img{
+    width: auto;
+    height: 100px;
+}
+
+#card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+#card2 img{
+    width: auto;
+    height: 100px;
+}
+
+#card3{
+    /* padding-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#card3 img{
+    width: auto;
+    height: 100px;
+}
+
+/* client-section */
+#client-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#client-section .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo img{
+    height: 120px;
+    width: auto;
+    margin: 20px 25px;
+}
+
+/* Contact-us section */
+
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 280px;
+}
+
+#contact-us::before{
+    content: "";
+    position: absolute;
+    background: url('../img/contact.jpg') no-repeat center center/cover;
+    height: 280px;
+    top:0px;
+    left:0px;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.75;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+}
